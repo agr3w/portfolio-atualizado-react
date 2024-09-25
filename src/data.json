@@ -1,0 +1,24 @@
+
+
+{
+    "aboutMe": {
+        "name": "Weslley Luiz Kampa",
+        "description": "Me chamo Weslley Luiz Kampa e sou um estudante e entusiasta no ramo da programação. Nesse site você encontrará meus projetos e meios para se contatar comigo, além de uma demonstração das minhas habilidades no Front-End.",
+        "profileImage": "/luas/perfil.png"
+    },
+    "skills": [
+        { "name": "HTML", "stars": 5 },
+        { "name": "CSS", "stars": 5 },
+        { "name": "JavaScript", "stars": 5 },
+        { "name": "React", "stars": 5 }
+    ],
+    "projects": [
+        {
+            "title": "Mochila de viagem",
+            "image": "/imgs/mochila-de-viajem.jpg",
+            "description": "Uma demonstração simples do uso de JavaScript.",
+            "link": "https://mochila-de-viagem-red.vercel.app/",
+            "progress": { "html": 17, "css": 51, "js": 32 }
+        }
+    ]
+}
