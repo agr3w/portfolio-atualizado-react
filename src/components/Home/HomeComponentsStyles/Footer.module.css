@@ -1,0 +1,15 @@
+/* Footer.module.css */
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding: 15px 0;
+    background-color: black;
+}
+
+.insta, .git, .alura {
+    transition: 1s;
+    max-width: 40px;
+    border-radius: 10px;
+    filter: invert();
+}

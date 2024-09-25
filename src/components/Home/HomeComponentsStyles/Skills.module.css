@@ -1,0 +1,52 @@
+/* Habilidades.module.css */
+#habilidades {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.habilidades-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-habilidade {
+    padding: 0 0 40px 0;
+    font-size: 2.5rem;
+}
+
+.habilidades-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.habilidades-lista li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidade-nome {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+/* Estilos para habilidades específicas */
+.habilidade-nome.html {
+    background-image: url(/imgs/icone-html.png);
+}
+
+.habilidade-nome.css {
+    background-image: url(/imgs/icone-css.png);
+}
+
+.habilidade-nome.javascript {
+    background-image: url(/imgs/logo-javascript.png);
+}
+
+.habilidade-nome.react {
+    background-image: url(/imgs/logo-react.png);
+}

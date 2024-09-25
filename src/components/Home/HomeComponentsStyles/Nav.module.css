@@ -1,0 +1,35 @@
+/* Nav.module.css */
+nav {
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    box-shadow: 10px 10px 10px rgba(83, 83, 83, 0.548);
+    background-color: #191e24f5;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 50px;
+}
+
+li {
+    width: 70px;
+}
+
+li a {
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+}
+
+li a:hover {
+    color: #f1c40f;
+    border-bottom: 4px #f1c40f solid;
+}

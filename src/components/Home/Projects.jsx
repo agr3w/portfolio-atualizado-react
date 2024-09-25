@@ -1,17 +1,13 @@
-import React from 'react';
-
-const projects = [
-    {
-        title: "Mochila de viagem",
-        image: "/imgs/mochila-de-viajem.jpg",
-        description: "Uma demonstração simples do uso de JavaScript.",
-        link: "https://mochila-de-viagem-red.vercel.app/",
-        progress: { html: 17, css: 51, js: 32 },
-    },
-    // Adicione os outros projetos da mesma forma...
-];
+import React, { useEffect, useState } from 'react';
+import data from '../../data.json';
 
 const Projects = () => {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        setProjects(data.projects);
+    }, []);
+
     return (
         <section id="projetos">
             <h1 className="titulo-div-projetos">Projetos</h1>

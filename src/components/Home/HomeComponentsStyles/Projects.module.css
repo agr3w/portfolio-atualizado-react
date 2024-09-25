@@ -1,0 +1,45 @@
+/* Projetos.module.css */
+#projetos {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.titulo-div-projetos {
+    font-size: 85px;
+    padding: 20px 30px 20px 60px;
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.titulo-projetos {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.card {
+    width: 35%;
+    background-color: #212121;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin: 25px 20px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}

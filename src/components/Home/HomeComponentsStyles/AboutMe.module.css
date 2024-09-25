@@ -1,0 +1,40 @@
+/* QuemSou.module.css */
+.quem-sou {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.quem-sou-container {
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.quem-sou img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 227px 244px;
+    rotate: -2deg;
+    filter: drop-shadow(-1px 11px 75px #333);
+}
+
+.quem-sou-texto {
+    width: 50%;
+    padding: 0 35px 0 0;
+}
+
+.quem-sou-texto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.quem-sou-texto p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+}
