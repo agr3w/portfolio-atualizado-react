@@ -1,24 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import data from '../../data.json';
+import style from "./HomeComponentsStyles/Skills.module.css"
 
 const Skills = () => {
-    const skills = [
-        { name: 'HTML', stars: 5 },
-        { name: 'CSS', stars: 5 },
-        { name: 'JavaScript', stars: 5 },
-        { name: 'React', stars: 5 },
-    ];
+    const [skills, setSkills] = useState([]);
+
+    useEffect(() => {
+        setSkills(data.skills);
+    }, []);
 
     return (
-        <section id="habilidades">
-            <div className="habilidades-container">
-                <h2 className="titulo-habilidade">Minhas habilidades</h2>
-                <ul className="habilidades-lista">
+        <section id={style.habilidades}>
+            <div className={style.habilidades_container}>
+                <h2 className={style.titulo_habilidade}>Minhas habilidades</h2>
+                <ul className={style.habilidades_lista}>
                     {skills.map((skill, index) => (
                         <li key={index}>
-                            <span className={`habilidade-nome ${skill.name.toLowerCase()}`}>{skill.name}</span>
-                            <div className="habilidade-estrelas">
+                            <span className={`habilidade_nome ${skill.name.toLowerCase()}`}>{skill.name}</span>
+                            <div className={style.habilidade_estrelas}>
                                 {[...Array(skill.stars)].map((_, i) => (
-                                    <div className="estrela" key={i}></div>
+                                    <div className={style.estrela} key={i}></div>
                                 ))}
                             </div>
                         </li>

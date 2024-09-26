@@ -1,0 +1,24 @@
+/* Estilo Inicial */
+.initial {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* Animação: Sobe de Baixo para Cima */
+.slideUp {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animação: Desliza para o Lado */
+.slideLeft {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Animação: Fade In */
+.fadeIn {
+    opacity: 1;
+    transform: none;
+}

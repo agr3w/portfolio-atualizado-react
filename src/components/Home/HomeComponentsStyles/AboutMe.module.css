@@ -1,5 +1,5 @@
 /* QuemSou.module.css */
-.quem-sou {
+.quem_sou {
     background-color: black;
     color: white;
     height: 100vh;
@@ -7,13 +7,13 @@
     align-items: center;
 }
 
-.quem-sou-container {
+.quem_sou_container {
     align-items: center;
     justify-content: center;
     display: none;
 }
 
-.quem-sou img {
+.quem_sou img {
     max-width: 50%;
     height: auto;
     margin-right: 30px;
@@ -22,17 +22,17 @@
     filter: drop-shadow(-1px 11px 75px #333);
 }
 
-.quem-sou-texto {
+.quem_sou_texto {
     width: 50%;
     padding: 0 35px 0 0;
 }
 
-.quem-sou-texto h2 {
+.quem_sou_texto h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
-.quem-sou-texto p {
+.quem_sou_texto p {
     font-size: 1.2rem;
     line-height: 1.5;
     display: flex;

@@ -1,45 +1,105 @@
-/* Projetos.module.css */
-#projetos {
-    background-color: #333;
-    padding: 10px 0;
+/* Projects.module.css */
+
+/* Seção geral de Projetos */
+.projetos_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #1e1e1e; /* Fundo escuro */
+    border-radius: 10px;
 }
 
-.titulo-div-projetos {
-    font-size: 85px;
-    padding: 20px 30px 20px 60px;
-    text-transform: uppercase;
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    filter: drop-shadow(2px 4px 6px black);
-}
-
-.projetos-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 40px;
-}
-
-.titulo-projetos {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 50px;
+/* Título da seção */
+.titulo_div_projetos {
+    font-size: 2rem;
     color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 600;
 }
 
+/* Card individual do projeto */
 .card {
-    width: 35%;
-    background-color: #212121;
-    border: 1px solid #e6e6e6;
-    border-radius: 5px;
-    margin: 25px 20px;
-    padding: 20px;
-    transition: all 0.3s ease-in-out;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Título do projeto */
+.titulo_projetos {
+    font-size: 1.5rem;
+    color: #00aaff; /* Azul para destaque */
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Imagem do projeto */
+.card_img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #444;
+}
+
+/* Descrição do projeto */
+.card_descricao {
+    padding: 1rem;
+    color: #ccc;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Barra de progresso */
+.barra_progresso {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.barra_html, .barra_css, .barra_js {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #444;
+    position: relative;
+}
+
+.barra_html {
+    background-color: #e44d26;
+}
+
+.barra_css {
+    background-color: #264de4;
+}
+
+.barra_js {
+    background-color: #f7df1e;
+}
+
+/* Botão de ver o projeto */
+.botao_ver {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.botao_ver a {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.botao_ver a:hover {
+    background-color: #0088cc;
 }

@@ -1,37 +1,48 @@
-/* Contato.module.css */
-#contato {
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    position: relative;
-}
+/* Contact.module.css */
 
-.imagem {
-    background-image: url('/gifs/chuvisco.gif');
-    background-size: cover;
-    filter: opacity(0.6);
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.informacoes {
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.informacoes p {
-    color: white;
-    font-size: 1.5rem;
+/* Seção de contato */
+.contact_section {
+    background-color: #1e1e1e;
+    padding: 3rem 2rem;
     text-align: center;
-    padding-bottom: 1.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+/* Título da seção */
+.contact_title {
+    font-size: 2rem;
+    color: #00aaff; /* Azul de destaque */
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* Texto da seção de contato */
+.contact_text {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Link e botão de contato */
+.contact_link {
+    text-decoration: none;
+}
+
+.contact_button {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact_button:hover {
+    background-color: #0088cc;
 }

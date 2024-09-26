@@ -1,15 +1,41 @@
 /* Footer.module.css */
-.redes {
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
-    padding: 15px 0;
-    background-color: black;
+
+/* Estilos gerais do rodapé */
+.footer {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px solid #333;
+    margin-top: 2rem;
 }
 
-.insta, .git, .alura {
-    transition: 1s;
-    max-width: 40px;
-    border-radius: 10px;
-    filter: invert();
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Texto do rodapé */
+.footer_text {
+    color: #ccc;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Links das redes sociais */
+.social_links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Estilo dos links */
+.link {
+    color: #00aaff; /* Azul de destaque */
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #0088cc; /* Azul escuro no hover */
 }

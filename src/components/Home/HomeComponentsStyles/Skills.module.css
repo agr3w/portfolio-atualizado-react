@@ -4,49 +4,49 @@
     padding: 50px 0;
 }
 
-.habilidades-container {
+.habilidades_container {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
 
-.titulo-habilidade {
+.titulo_habilidade {
     padding: 0 0 40px 0;
     font-size: 2.5rem;
 }
 
-.habilidades-lista {
+.habilidades_lista {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: space-around;
 }
 
-.habilidades-lista li {
+.habilidades_lista li {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.habilidade-nome {
+.habilidade_nome {
     font-weight: bold;
     font-size: 1.2rem;
     margin-right: 20px;
 }
 
 /* Estilos para habilidades específicas */
-.habilidade-nome.html {
-    background-image: url(/imgs/icone-html.png);
+.habilidade_nome_html {
+    background-image: url(../../../../public/imgs/icone-html.png);
 }
 
-.habilidade-nome.css {
-    background-image: url(/imgs/icone-css.png);
+.habilidade_nome.css {
+    background-image: url(../../../../public/imgs/icone-css.png);
 }
 
-.habilidade-nome.javascript {
-    background-image: url(/imgs/logo-javascript.png);
+.habilidade_nome.javascript {
+    background-image: url(../../../../public/imgs/logo-javascript.png);
 }
 
-.habilidade-nome.react {
-    background-image: url(/imgs/logo-react.png);
+.habilidade_nome.react {
+    background-image: url(../../../../public/imgs/logo-react.png);
 }

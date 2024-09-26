@@ -19,6 +19,21 @@
             "description": "Uma demonstração simples do uso de JavaScript.",
             "link": "https://mochila-de-viagem-red.vercel.app/",
             "progress": { "html": 17, "css": 51, "js": 32 }
+        },
+        {
+            "title": "Mochila de viagem",
+            "image": "/imgs/mochila-de-viajem.jpg",
+            "description": "Uma demonstração simples do uso de JavaScript.",
+            "link": "https://mochila-de-viagem-red.vercel.app/",
+            "progress": { "html": 17, "css": 51, "js": 32 }
+        },
+        {
+            "title": "Mochila de viagem",
+            "image": "/imgs/mochila-de-viajem.jpg",
+            "description": "Uma demonstração simples do uso de JavaScript.",
+            "link": "https://mochila-de-viagem-red.vercel.app/",
+            "progress": { "html": 17, "css": 51, "js": 32 }
         }
+       
     ]
 }
